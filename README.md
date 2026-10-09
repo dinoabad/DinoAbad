@@ -1,16 +1,19 @@
-## Hi there 👋
+# Dino Abad — Portfolio (Student IT)
 
-<!--
-**dinoabad/DinoAbad** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Static site: plain HTML/CSS/JS — no build step, no dependencies.
 
-Here are some ideas to get you started:
+## How to open
+- Double-click `index.html`, OR
+- Serve it: `python3 -m http.server 3000` then visit http://localhost:3000
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Files
+- `index.html` — all content (edit text here)
+- `styles.css` — design + 3D animations
+- `script.js` — typewriter, tilt, flip, nav
+
+## Quick edits
+- Cube spin speed: `--cube-speed` in styles.css (~line 212)
+- Colors: `:root` variables at top of styles.css
+- Accent color: `--accent`
+
+Tested in Chrome, Edge, and Firefox (modern versions).
